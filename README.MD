@@ -3,7 +3,10 @@
 ## 🎯 Projekt áttekintés
 Ez a projekt egy egyszerű, de látványos **2D játék**, amelyben a játékos **akadályokat kerül el**, **érméket gyűjt**, és **pontszámot szerez**.  
 A játék **tiszta JavaScriptben** készült, **külső könyvtárak nélkül**, és a **HTML5 Canvas API-t** használja a megjelenítéshez.
+---
+##🎮 Irányítás
 
+A játékban ugrani a Space gomb lenyomásával lehet! A menügombokat az egér lenyomásával lehet vezérelni
 ---
 
 ## 💡 Fő jellemzők
