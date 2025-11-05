@@ -1,33 +1,57 @@
-Áttekintés
-A projekt célja egy egyszerű 2D játék készítése JavaScript és HTML5 Canvas segítségével. A játékban a játékos akadályokat kerül el, érméket gyűjt és pontszámot szerez. A program tisztán JavaScriptben készült, külső könyvtárak nélkül.
-JavaScript-elemek
-A program használ változókat, függvényeket, osztályokat, ciklusokat és feltételeket. A játék működését események (billentyűleütések, kattintások) irányítják. A DOM kezelése JavaScripttel történik, például képernyőváltásnál és gombnyomásoknál.
-Kódszervezés
+# 🕹️ 2D Akadálykerülő Játék – JavaScript & HTML5 Canvas
 
-A kód több részre van bontva:
-const.js – alapkonstansok
-classes.js – a játék objektumai (pl. Coin, Floor, Obstacle)
-game.js – a fő logika, frissítés és kirajzolás
-Ez a felépítés támogatja az objektumorientált és moduláris megközelítést.
+## 🎯 Projekt áttekintés
+Ez a projekt egy egyszerű, de látványos **2D játék**, amelyben a játékos **akadályokat kerül el**, **érméket gyűjt**, és **pontszámot szerez**.  
+A játék **tiszta JavaScriptben** készült, **külső könyvtárak nélkül**, és a **HTML5 Canvas API-t** használja a megjelenítéshez.
 
-Grafika
-A megjelenítés a Canvas API-val történik (ctx.drawImage, ctx.fillText).
-A háttér több rétegből áll, a pontszám és az idő kijelzése egyedi betűtípussal és színnel jelenik meg.
-Fogalmak  
-Objektumorientált programozás
+---
 
+## 💡 Fő jellemzők
+- 🎮 Eseményvezérelt irányítás (billentyűzet és egér)
+- 💰 Érmegyűjtés és pontszám rendszer
+- ⚠️ Akadályok elkerülése
+- 🧱 Többrétegű háttér
+- 🕒 Folyamatos animáció (`requestAnimationFrame`)
+- ✨ Moduláris, objektumorientált kódszervezés
 
-Eseményvezérelt logika
+---
 
+## 🧩 Kódszervezés
 
-Animáció és időzítés (requestAnimationFrame)
+A projekt több fájlra van bontva a jobb olvashatóság és karbantarthatóság érdekében:
 
+| Fájl | Leírás |
+|------|--------|
+| **`const.js`** | Alapkonstansok és beállítások |
+| **`classes.js`** | A játék objektumai (pl. `Coin`, `Floor`, `Obstacle`) |
+| **`game.js`** | A játék fő logikája, frissítés és kirajzolás |
 
-Canvas grafika
+Ez a struktúra támogatja az **objektumorientált** és **moduláris** programozási elveket.
 
+---
 
-Moduláris kódszervezés
+## 🎨 Grafika
 
+- A megjelenítés a **Canvas API**-val történik (`ctx.drawImage`, `ctx.fillText` stb.)
+- A **háttér** több rétegből épül fel, így dinamikus mozgást és mélységet kelt
+- A **pontszám** és **idő** kijelzése egyedi betűtípussal és színekkel történik
 
-Összegzés
-A projekt bemutatja a JavaScript alapvető és haladó lehetőségeit, különösen az eseménykezelést, az animációkat és a Canvas grafikai megoldásait. Az elkészült játék önállóan futtatható és jól példázza a logika és megjelenítés összekapcsolását.
+---
+
+## ⚙️ Fogalmak és technológiák
+
+| Fogalom | Jelentés |
+|----------|-----------|
+| **Objektumorientált programozás (OOP)** | Osztályok és objektumok használata a játék elemeinek kezelésére |
+| **Eseményvezérelt logika** | Billentyűleütések és kattintások irányítják a játékmenetet |
+| **Animáció és időzítés** | Folyamatos mozgás `requestAnimationFrame` segítségével |
+| **Canvas grafika** | 2D megjelenítés a böngészőben |
+| **Moduláris kódszervezés** | A logika és megjelenítés külön fájlokba szervezve |
+
+---
+
+## 🚀 Futtatás
+
+1. Klónozd a repót:
+   ```bash
+   git clone https://github.com/felhasznalonev/2d-canvas-game.git
