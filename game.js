@@ -213,6 +213,8 @@ function ResetGame() {
     gameFrame = 0;
     gameSpeed= 2;
     score = 0;
+    minutes = 0;
+    seconds = 0;
     ScoreDisplay.innerHTML = "";
     playerY = CANVAS_HEIGHT*(2/3) - PLAYER_H;
     obstacle.x = CANVAS_WIDTH;
