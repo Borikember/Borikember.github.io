@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <canvas id="game" width="700px" height="400px">
-    </canvas>
+    <div id="main_menu">
+        <h1 >Jungle Escape</h1><br>
+        <button id="start_game">Start Game</button>
+        <button id="instruction">How to Play</button>
+    </div>
+    <div id="game_over">
+        <h1>Game Over</h1><br>
+        <div id="final_score"></div>
+        <button id="restart_game">Restart Game</button>
+    </div>
+    <div id="how_to_play">
+        <h1>How to Play</h1>
+        <p>Press Space to jump over obstacles. Avoid collisions to keep playing!</p>
+        <button id="back_to_menu">Back to Menu</button>
+    </div>
+    <canvas id="game"></canvas>
 </body>
 <script src="classes.js"></script>
+<script src="const.js"></script>
 <script src="game.js"></script>
 </html>
