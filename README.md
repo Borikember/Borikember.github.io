@@ -1,6 +1,5 @@
 Áttekintés
 A projekt célja egy egyszerű 2D játék készítése JavaScript és HTML5 Canvas segítségével. A játékban a játékos akadályokat kerül el, érméket gyűjt és pontszámot szerez. A program tisztán JavaScriptben készült, külső könyvtárak nélkül.
-A játékban ugorni a Space gomb lenyomásával lehet!
 JavaScript-elemek
 A program használ változókat, függvényeket, osztályokat, ciklusokat és feltételeket. A játék működését események (billentyűleütések, kattintások) irányítják. A DOM kezelése JavaScripttel történik, például képernyőváltásnál és gombnyomásoknál.
 Kódszervezés
